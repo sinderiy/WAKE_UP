@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Transition : MonoBehaviour
 {
-
     public GameObject Text;
     public GameObject Line;
     // Start is called before the first frame update
@@ -14,9 +13,9 @@ public class Transition : MonoBehaviour
         Line.SetActive(false);
     }
 
-	public void OnMouseDown()
+    public void OnMouseDown()
     {
-	Effects.FadeScreen(Color.black, 0, 1, 1, () => Application.LoadLevel("LoungeRoom"));
+        BlackOut.FadeScreen(Color.black, 0, 1, 1, () => Application.LoadLevel("LoungeRoom"));
         //Application.LoadLevel("LoungeRoom");
     }
 
@@ -30,4 +29,5 @@ public class Transition : MonoBehaviour
         Text.SetActive(false);
         Line.SetActive(false);
     }
+
 }

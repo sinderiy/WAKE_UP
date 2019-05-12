@@ -13,7 +13,7 @@ public class PlayerScript : MonoBehaviour {
     {
         anim = GetComponent<Animator>();
         rigid2D = GetComponent<Rigidbody2D>();
-       Effects.FadeScreen(Color.black, 1, 0, 1);
+       BlackOut.FadeScreen(Color.black, 1, 0, 1);
     }
 	
 	// Update is called once per frame
