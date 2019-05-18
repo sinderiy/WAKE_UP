@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MonsterHidden : MonoBehaviour
 {
-    public SpriteRenderer[] parents = new SpriteRenderer[5];
+    public SpriteRenderer[] parents = new SpriteRenderer[7];
     // Start is called before the first frame update
     void Start()
     {

@@ -71,6 +71,32 @@ public class BeginningEvent : MonoBehaviour
     void Animation7()
     {
         parents[5].enabled = false;//убрали черный фон
+        InvokeRepeating("Animation8", 0.6f, 0);
+    }
+        void Animation8()
+    {
+        parents[5].enabled = true; //показали черный фон
+        parents[4].enabled = false; //убрали 2 кадр
+        parents[6].enabled = true; //показали 3 кадр
+        InvokeRepeating("Animation9", 0.6f, 0);
+    }
+
+    void Animation9()
+    {
+        parents[5].enabled = false;//убрали черный фон
+        InvokeRepeating("Animation10", 0.6f, 0);
+    }
+        void Animation10()
+    {
+        parents[5].enabled = true; //показали черный фон
+        parents[6].enabled = false; //убрали 2 кадр
+        parents[7].enabled = true; //показали 3 кадр
+        InvokeRepeating("Animation11", 0.6f, 0);
+    }
+
+    void Animation11()
+    {
+        parents[5].enabled = false;//убрали черный фон
         
     }
 
