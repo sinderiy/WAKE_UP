@@ -19,7 +19,7 @@ public class BeginningEvent : MonoBehaviour
     public void OnMouseDown()
     {
         gameObject.GetComponent<DialogueTrigger>().TriggerDialogue();
-        InvokeRepeating("Animation0", 2, 0);
+        InvokeRepeating("Animation0", 3, 0);
     }
 
     void Animation0()
@@ -27,7 +27,7 @@ public class BeginningEvent : MonoBehaviour
         parents[0].enabled = false; //убрали родителей
         parents[5].enabled = true; //включили черный фон
         parents[1].enabled = true; //появился 1 кадр монстра
-        InvokeRepeating("Animation1", 1, 0);
+        InvokeRepeating("Animation1", 0.6f, 0);
     }
 
     void Animation1()
@@ -35,38 +35,38 @@ public class BeginningEvent : MonoBehaviour
         parents[5].enabled = false;//убрали черный фон
         
        // parents[2].enabled = true;
-        InvokeRepeating("Animation2", 1, 0);
+        InvokeRepeating("Animation2", 0.4f, 0);
     }
     void Animation2()
     {
         parents[5].enabled = true; //показали черный фон
         parents[1].enabled = false; //убрали 1 кадр
         parents[2].enabled = true; //показали 2 кадр
-        InvokeRepeating("Animation3", 1, 0);
+        InvokeRepeating("Animation3", 0.6f, 0);
     }
     void Animation3()
     {
         parents[5].enabled = false;//убрали черный фон
-        InvokeRepeating("Animation4", 1, 0);
+        InvokeRepeating("Animation4", 0.4f, 0);
     }
     void Animation4()
     {
         parents[5].enabled = true; //показали черный фон
         parents[2].enabled = false; //убрали 2 кадр
         parents[3].enabled = true; //показали 3 кадр
-        InvokeRepeating("Animation5", 1, 0);
+        InvokeRepeating("Animation5", 0.8f, 0);
     }
     void Animation5()
     {
         parents[5].enabled = false;//убрали черный фон
-        InvokeRepeating("Animation6", 1, 0);
+        InvokeRepeating("Animation6", 0.6f, 0);
     }
     void Animation6()
     {
         parents[5].enabled = true; //показали черный фон
         parents[3].enabled = false; //убрали 2 кадр
         parents[4].enabled = true; //показали 3 кадр
-        InvokeRepeating("Animation7", 1, 0);
+        InvokeRepeating("Animation7", 0.6f, 0);
     }
     void Animation7()
     {
