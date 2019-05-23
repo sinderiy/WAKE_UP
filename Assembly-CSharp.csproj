@@ -63,17 +63,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ActivatingScene.cs" />
     <Compile Include="Assets\Scripts\BeginningEvent.cs" />
     <Compile Include="Assets\Scripts\BlackOut.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\Contrast.cs" />
     <Compile Include="Assets\Scripts\Dialogue.cs" />
     <Compile Include="Assets\Scripts\DialogueManager.cs" />
     <Compile Include="Assets\Scripts\DialogueTrigger.cs" />
     <Compile Include="Assets\Scripts\IgnoreCollision.cs" />
+    <Compile Include="Assets\Scripts\LoadGame.cs" />
+    <Compile Include="Assets\Scripts\LoadGame2.cs" />
+    <Compile Include="Assets\Scripts\Monster.cs" />
     <Compile Include="Assets\Scripts\MonsterHidden.cs" />
+    <Compile Include="Assets\Scripts\MusicScript.cs" />
+    <Compile Include="Assets\Scripts\NoMoves.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
     <Compile Include="Assets\Scripts\Transition.cs" />
     <Compile Include="Assets\Scripts\TrasherScript.cs" />
+    <Compile Include="Assets\Scripts\UnclikableObject.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>E:/ESC/ИГРА/WAKE_UP/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -109,6 +117,12 @@
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Runtime">
       <HintPath>E:/ESC/ИГРА/WAKE_UP/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>E:/ESC/ИГРА/WAKE_UP/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>E:/ESC/ИГРА/WAKE_UP/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

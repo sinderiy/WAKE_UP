@@ -1,0 +1,389 @@
+fileFormatVersion: 2
+guid: 0397d4d010963614f81095d274092e2c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2557264404638765533
+    second: MonsterAnimation_0
+  - first:
+      213: 871530626911458526
+    second: MonsterAnimation_1
+  - first:
+      213: -375010010804116744
+    second: MonsterAnimation_2
+  - first:
+      213: -8646205512786518875
+    second: MonsterAnimation_3
+  - first:
+      213: -6113778999294894420
+    second: MonsterAnimation_4
+  - first:
+      213: -8189118674504273195
+    second: MonsterAnimation_5
+  - first:
+      213: 1302627110487305512
+    second: MonsterAnimation_6
+  - first:
+      213: 6580942858905411177
+    second: MonsterAnimation_7
+  - first:
+      213: -1209727038884662725
+    second: MonsterAnimation_8
+  - first:
+      213: -1381856296523689875
+    second: MonsterAnimation_9
+  - first:
+      213: 17242672252632843
+    second: MonsterAnimation_10
+  - first:
+      213: -5039964580830340091
+    second: MonsterAnimation_11
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MonsterAnimation_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 2447
+        width: 2024
+        height: 2383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc9c82a76545cf4490346ac33c73017
+      internalID: -2557264404638765533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterAnimation_1
+      rect:
+        serializedVersion: 2
+        x: 2113
+        y: 2608
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9925094290772774e9ff6ee55f6a0622
+      internalID: 871530626911458526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterAnimation_2
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 2444
+        width: 2038
+        height: 2365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b3c972597823d4da980183c9ab7fba
+      internalID: -375010010804116744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterAnimation_3
+      rect:
+        serializedVersion: 2
+        x: 4305
+        y: 2605
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a5d7448ce8761498c5c108f580317a
+      internalID: -8646205512786518875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterAnimation_4
+      rect:
+        serializedVersion: 2
+        x: 4363
+        y: 2435
+        width: 2044
+        height: 2348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc349d7d98dd0b4695a2af0a068bf72
+      internalID: -6113778999294894420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterAnimation_5
+      rect:
+        serializedVersion: 2
+        x: 6429
+        y: 2597
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a827cdf6bdcea534cb67ce0708d66235
+      internalID: -8189118674504273195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterAnimation_6
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 32
+        width: 2050
+        height: 2386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb22ffbc8dcf304a8b77128fcce35e1
+      internalID: 1302627110487305512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterAnimation_7
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 193
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a7921af7e2e2e4e96db47b14681106
+      internalID: 6580942858905411177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterAnimation_8
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 23
+        width: 2045
+        height: 2369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06286f78bd19eef4b8ac3049699f4ee8
+      internalID: -1209727038884662725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterAnimation_9
+      rect:
+        serializedVersion: 2
+        x: 4212
+        y: 185
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142c3f26ea005344ba56b48af4794ed1
+      internalID: -1381856296523689875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterAnimation_10
+      rect:
+        serializedVersion: 2
+        x: 4287
+        y: 23
+        width: 2037
+        height: 2366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca8f48bce3bf7b4d905ceb952320289
+      internalID: 17242672252632843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterAnimation_11
+      rect:
+        serializedVersion: 2
+        x: 6352
+        y: 184
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf7f45028022fe4e9f72702e38f46a2
+      internalID: -5039964580830340091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d41cc73380181ed48b4d8d6bca858e09
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

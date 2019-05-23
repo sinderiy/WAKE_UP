@@ -9,5 +9,7 @@ public class DialogueTrigger : MonoBehaviour {
     public void TriggerDialogue()
     {
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+       FindObjectOfType<NoMoves>().DontMove();
+       FindObjectOfType<UnclikableObject>().Unclikable();
     }
 }

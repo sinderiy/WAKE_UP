@@ -7,7 +7,6 @@ public class PlayerScript : MonoBehaviour {
     bool facingRight = true;
     private Rigidbody2D rigid2D;
     Animator anim;
-    
 
     void Start ()
     {
@@ -26,8 +25,7 @@ public class PlayerScript : MonoBehaviour {
         if (move > 0 && !facingRight)
                    Flip();
         else if (move < 0 && facingRight)
-                   Flip();
-         
+                   Flip();        
     }
     void Flip()
     {
@@ -37,6 +35,20 @@ public class PlayerScript : MonoBehaviour {
         transform.localScale = theScale;
     }
 
-   
-
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Monster")
+        {
+            FindObjectOfType<NoMoves>().DontMove();
+            BlackOut.FadeScreen(Color.white, 0, 1, 1.5f, () => Application.LoadLevel("Photo"));
+        }
+    }
+   public void StopMove()
+    {
+        anim.SetFloat("Speed", 0);
+    }
+    public void StartMove()
+    {
+        anim.SetFloat("Speed", 0.1f);
+    }
 }

@@ -23,7 +23,7 @@ public class DialogueManager : MonoBehaviour {
 
         nameText.text = dialogue.name;
 
-        sentences.Clear(); 
+        sentences.Clear();
 
         foreach (string sentence in dialogue.sentences)
         {
@@ -35,7 +35,7 @@ public class DialogueManager : MonoBehaviour {
 
     public void DisplayNextSentence()
     {
-        if (sentences.Count==0)
+        if (sentences.Count == 0)
         {
             EndDialogue();
             return;
@@ -46,7 +46,7 @@ public class DialogueManager : MonoBehaviour {
         StartCoroutine(TypeSentence(sentence));
     }
 
-    IEnumerator TypeSentence (string sentence)
+    IEnumerator TypeSentence(string sentence)
     {
         dialogueText.text = "";
         foreach (char letter in sentence.ToCharArray())
@@ -59,5 +59,7 @@ public class DialogueManager : MonoBehaviour {
     void EndDialogue()
     {
         animator.SetBool("IsOpen", false);
+        FindObjectOfType<NoMoves>().Move();
+       FindObjectOfType<UnclikableObject>().Clikable();
     }
 }

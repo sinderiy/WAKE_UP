@@ -6,7 +6,7 @@ public class Transition : MonoBehaviour
 {
     public GameObject Text;
     public GameObject Line;
-    // Start is called before the first frame update
+   
     void Start()
     {
         Text.SetActive(false);
